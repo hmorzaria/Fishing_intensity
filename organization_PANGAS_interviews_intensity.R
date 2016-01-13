@@ -10,9 +10,9 @@ lapply(x, require, character.only = TRUE)
 rm(list=ls())
 
 graphics.off()
-setwd("E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity")
-pathToSaveShapes = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/Pangas_loc/"
-mainpath = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/"
+setwd("E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity")
+pathToSaveShapes = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/Pangas_loc/"
+mainpath = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/"
 
 #define projection of data
 crs.geo <- CRS("+proj=lcc +lat_1=17.5 +lat_2=29.5 +lat_0=0 +lon_0=-102 +x_0=2000000 +y_0=0 +datum=NAD27 +units=m +no_defs")

@@ -13,9 +13,9 @@ rm(list=ls())
 
 graphics.off()
 
-datapath = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/CEDO"
-pathToSaveShapes = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/CEDO/"
-mainpath = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/"
+datapath = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/CEDO"
+pathToSaveShapes = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/CEDO/"
+mainpath = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/"
 
 setwd("E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity")
 

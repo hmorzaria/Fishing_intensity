@@ -14,11 +14,11 @@ rm(list=ls())
 
 graphics.off()
 
-datapath = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/Bitacoras_revisado"
+datapath = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/Bitacoras_revisado"
 
-mainpath = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/"
+mainpath = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/"
 
-pathToSaveShapes = "E:/Archivos/SIG/Proyectos/ArcGis/Datos ordenados/Shapes y layers/Archivos_articulos/Fishing_intensity/Bitacoras_revisado_loc"
+pathToSaveShapes = "E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity/Analysis/SIG_Fishing_intensity/Bitacoras_revisado_loc"
 
 setwd("E:/Archivos/1Archivos/Articulos/En preparacion/Fisheries_intensity")
 
