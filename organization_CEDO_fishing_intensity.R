@@ -54,7 +54,7 @@ mask.raster[is.na(mask.raster)] <- 0
 
 setwd(pathToSaveShapes)
 
-for (eachfolder in 5:length(names_locations)) 
+for (eachfolder in 1:length(names_locations)) 
   
 {
   this.folder = names_locations[eachfolder]
@@ -68,7 +68,7 @@ for (eachfolder in 5:length(names_locations))
   unique.sp = unique(folder.data$SP_CODE)
    
 
-  for(eachsp in 9:length(unique.sp))
+  for(eachsp in 1:length(unique.sp))
 
       {
  sp.r = stack(mask.raster)
