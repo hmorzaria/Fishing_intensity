@@ -280,7 +280,7 @@ for(eachspecies in 1:length(list.species))
       reclassify(cbind(0, NA)) 
    
     #normalize raster 0-1 and save
-    norm.data = (index.intensity - cellStats(index.intensity,"min")) / (cellStats(index.intensity,"max")-cellStats(index.intensity,"min"))
+    norm.data = (index.intensity) / (cellStats(index.intensity,"max"))
     
     norm.data2 = norm.data %>% 
       rasterToPoints %>% 
@@ -336,8 +336,9 @@ for(eachspecies in 1:length(list.species))
       reclassify(cbind(0, NA)) 
     
     #normalize raster 0-1 and save
-    norm.data = (index.intensity - cellStats(index.intensity,"min")) / (cellStats(index.intensity,"max")-cellStats(index.intensity,"min"))
+    norm.data = (index.intensity) / (cellStats(index.intensity,"max"))
     
+   
     norm.data2 = norm.data %>% 
       rasterToPoints %>% 
       data.frame %>% 

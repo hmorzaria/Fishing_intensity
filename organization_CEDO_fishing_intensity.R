@@ -225,7 +225,7 @@ print("Summing all rasters")
       reclassify(cbind(0, NA)) 
    
     #normalize raster 0-1 and save
-    norm.data = (index.intensity - cellStats(index.intensity,"min")) / (cellStats(index.intensity,"max")-cellStats(index.intensity,"min"))
+    norm.data = (index.intensity) / (cellStats(index.intensity,"max"))
     
     norm.data2 = norm.data %>% 
       rasterToPoints %>% 
@@ -281,7 +281,7 @@ print("Summing all rasters")
       reclassify(cbind(0, NA)) 
     
         #normalize raster 0-1 and save
-        norm.data = (index.intensity - cellStats(index.intensity,"min")) / (cellStats(index.intensity,"max")-cellStats(index.intensity,"min"))
+        norm.data = (index.intensity) / (cellStats(index.intensity,"max"))
         
     norm.data2 = norm.data %>% 
       rasterToPoints %>% 
